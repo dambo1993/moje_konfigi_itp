@@ -30,6 +30,9 @@
 {&#13;
 	${cursor}&#13;
 	return;&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="szablon funkcji bez parametrow" enabled="true" name="ffv">${typ} ${nazwa_funkcji}(void)&#13;
+{&#13;
+	${cursor}&#13;
 }</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for loop with different type" enabled="true" name="for typ">for(${type} ${var} = 0; ${var} &lt; ${max}; ${var}++) &#13;
 {&#13;
 	${line_selection}${cursor}&#13;
