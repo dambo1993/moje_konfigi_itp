@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="szablon funkcji bez parametrow" enabled="true" name="ffv">${typ} ${nazwa_funkcji}(void)&#13;
+{&#13;
+	${cursor}&#13;
+	return;&#13;
+}</template></templates>
