@@ -34,7 +34,7 @@
 {&#13;
 	${cursor}&#13;
 	return;&#13;
-}</template></templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for loop with different type" enabled="true" name="for typ">for(${type} ${var} = 0; ${var} &lt; ${max}; ${var}++) &#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for loop with different type" enabled="true" name="for typ">for(${type} ${var} = 0; ${var} &lt; ${max}; ${var}++) &#13;
 {&#13;
 	${line_selection}${cursor}&#13;
 }</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="if statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.if" name="if">if(${condition}) 
