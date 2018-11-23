@@ -12,12 +12,15 @@ return
 
 ; utworzenie nowego pliku
 F7::
-Send, {alt}
-Send, p
-Send, w
+Send, {AppsKey}
+Send, {Up}
+Send, {Up}
+Send, {Right}
+Send, {Up}
 Send, {Up}
 Send, {Up}
 Send, {Enter}
+Send, ^A
 Send, ^A
 return
 
