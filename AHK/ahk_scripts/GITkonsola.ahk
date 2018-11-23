@@ -27,3 +27,4 @@
 ::gcaem::git commit --allow-empty -m "
 ::gaa::git add -A
 ::gchb::git checkout -b 
+::grh::git reset --hard
