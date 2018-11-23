@@ -28,7 +28,7 @@ Send, n
 Send, {Enter}
 return
 
-; uruchomienie konsoli GITa w otwartym
+; otwarcie gita w aktualnym katalogu
 ^G::
 Send, {AppsKey}
 Send, s
