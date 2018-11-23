@@ -1,1 +1,1 @@
-start "7+ Taskbar Numberer.exe" -v5 -hidewnd
+start "" "7+ Taskbar Numberer.exe" -v5
