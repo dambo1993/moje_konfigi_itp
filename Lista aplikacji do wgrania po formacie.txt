@@ -1,4 +1,10 @@
-1. Executor
-2. 7+ Taskbar Numberer
-3. Ditto
-4. AutoHotKey
+Narzędzia "ulatwiajace" prace":
+1. Executor - mega launcher
+2. 7+ Taskbar Numberer - numerki na pasku zadan
+3. Ditto - historia schowka systemowego
+4. AutoHotKey - mega skrypty/makra
+5. Desktop OK - zapisanie pozycji ikon gdy zmienia sie uklad monitorow
+
+
+Typowo narzedziowe:
+1. Moba Xterm - klient SSH, Serial portu itp
