@@ -6,8 +6,15 @@
 ; uruchomienie lini komend w aktualnie otwartym oknie
 F8::
 Send, !a
-Send, cmd
+
+Send, {Home}
+
+Send, cmder
+
+Send, {space}
+
 Send, {Enter}
+
 return
 
 ; utworzenie nowego pliku

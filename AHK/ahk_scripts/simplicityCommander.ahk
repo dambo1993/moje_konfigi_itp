@@ -1,5 +1,8 @@
 #SingleInstance force
 
+; komendy aktywne tylko w CMD i CMDerze
+#If WinActive("ahk_exe ConEmu64.exe") || WinActive("ahk_exe cmd.exe")
+
 ::cmdr::commander
 ::cmdrh::commander -h
 ::cmdrdi::commander device info

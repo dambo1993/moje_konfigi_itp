@@ -4,6 +4,7 @@ Narzędzia "ulatwiajace" prace":
 3. Ditto - historia schowka systemowego
 4. AutoHotKey - mega skrypty/makra
 5. Desktop OK - zapisanie pozycji ikon gdy zmienia sie uklad monitorow
+6. CMDer - zamiennik CMD na windowsie
 
 
 Typowo narzedziowe:

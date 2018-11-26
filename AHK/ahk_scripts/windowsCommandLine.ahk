@@ -1,6 +1,6 @@
 #SingleInstance force
 
-; komendy aktywne tylko w cmd i cmderze
+; komendy aktywne tylko w CMD i CMDerze
 #If WinActive("ahk_exe ConEmu64.exe") || WinActive("ahk_exe cmd.exe")
 
 ; uruchomienie explorera w danym katalogu
