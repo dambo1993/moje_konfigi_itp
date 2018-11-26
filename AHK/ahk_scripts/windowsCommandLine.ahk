@@ -6,6 +6,9 @@
 ; uruchomienie explorera w danym katalogu
 ::ex.::explorer .
 
+
+
+#If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
 ^V::
 SendInput {Raw}%clipboard%
