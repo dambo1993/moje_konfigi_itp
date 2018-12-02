@@ -1,0 +1,33 @@
+Moja konfiguracja przycisków dla myszek typu:
+- Mars MM4
+- Redragon Foxbat - link do driverow: https://drive.google.com/file/d/19nwYT9osh5RBRq9cm9QINHc8BBIP_Id8/view?usp=sharing
+I jeszcze kilka innych - różnią się praktycznie tylko producentem.
+
+Opis jako tekst, ponieważ pliki konfiguracyjne nie zawsze są kompatybilne.
+
+Profil "ogólny":
+Acceleration  - 0
+Pointer speed - polowa
+Scroll speed  - 1/4 paska
+Polling rate - 500Hz
+DPI - 5650
+	Front:
+		1 - click
+		2 - right click
+		3 - middle button
+		4 - back
+		5 - volume up
+		6 - volume down
+	Side:
+		1 - close window
+		2 - Ctrl + W (zamknięcie karty np w firefoxie)
+		3 - <todo>
+		4 - Ctrl + PageUp
+		5 - Ctrl + T
+		6 - Ctrl + PageDown		
+		7 - Ctrl + Shift + Esc (Menager zadań)
+		8 - Open Explorer
+		9 - <todo>
+		10 - MUTE
+		11 - PLAY/PAUSE
+		12 - NEXT TRACK
