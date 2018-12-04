@@ -6,6 +6,8 @@
 ; uruchomienie explorera w danym katalogu
 ::ex.::explorer .
 
+; uruchomienie notepada++
+::ntpp::notepad{+}{+}
 
 
 #If WinActive("ahk_exe cmd.exe")
