@@ -9,6 +9,8 @@
 ; uruchomienie notepada++
 ::ntpp::notepad{+}{+}
 
+; uruchomienie zwyklego notepada
+::ntp::notepad
 
 #If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
