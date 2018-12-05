@@ -12,6 +12,9 @@
 ; uruchomienie zwyklego notepada
 ::ntp::notepad
 
+; uruchomienie SM - porty COM
+::sa_com::python c:\smallApps\COMPorts.py
+
 #If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
 ^V::
