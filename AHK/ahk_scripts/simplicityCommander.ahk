@@ -12,3 +12,4 @@
 ::cmdrme::commander device masserase -d EFR32
 ::cmdrpere::commander device pageerase --region @
 ::cmdrpera::commander device pageerase --range 0x
+::cmdrf::commander flash -d EFR32 
