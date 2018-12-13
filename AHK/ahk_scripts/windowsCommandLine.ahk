@@ -15,6 +15,10 @@
 ; uruchomienie SM - porty COM
 ::sa_com::python c:\smallApps\COMPorts.py
 
+; szybszy grep
+::|gr::| grep 
+
+; komenda aktywna tylko w CMD - CMDer ma juz to wbudowane
 #If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
 ^V::
