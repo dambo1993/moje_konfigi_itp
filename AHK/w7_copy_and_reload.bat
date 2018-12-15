@@ -1,0 +1,3 @@
+call copy_to_c_scripts.bat
+call reload_all_w7.bat
+@set /p DUMMY=Hit ENTER to continue...
