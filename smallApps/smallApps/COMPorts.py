@@ -1,11 +1,16 @@
 import serial.tools.list_ports
 from beautifultable import BeautifulTable
 
-ports = serial.tools.list_ports.comports()
-table = BeautifulTable()
-table.column_headers = ["PORT", "DESCRIPTION", "HWID"]
+def printPortsInfo(ports):
+	print("Active COM ports:")
+	table = BeautifulTable()
+	table.column_headers = ["N", "PORT", "DESCRIPTION", "HWID"]
+	number = 1
+	for port, desc, hwid in ports:
+		table.append_row([number, port, desc, hwid])
+		number += 1
+	print(table)
+	
+sortedPorts = sorted(serial.tools.list_ports.comports())
 
-print("Active COM ports:")
-for port, desc, hwid in sorted(ports):
-        table.append_row([port, desc, hwid])
-print(table)
+printPortsInfo(sortedPorts)

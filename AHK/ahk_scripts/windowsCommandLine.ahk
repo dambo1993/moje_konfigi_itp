@@ -12,8 +12,11 @@
 ; uruchomienie zwyklego notepada
 ::ntp::notepad
 
-; uruchomienie SM - porty COM
+; uruchomienie SA - porty COM
 ::sa_com::python c:\smallApps\COMPorts.py
+
+; uruchomienie SA - puttyRunner
+::sa_put::python c:\smallApps\puttyRunner.py
 
 ; szybszy grep
 ::|gr::| grep 
