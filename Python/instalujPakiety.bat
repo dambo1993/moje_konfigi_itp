@@ -1,0 +1,3 @@
+python -m pip install beautifultable
+
+@set /p DUMMY=Hit ENTER to continue...
