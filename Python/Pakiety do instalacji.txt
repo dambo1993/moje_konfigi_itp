@@ -1,2 +1,3 @@
 1. BeautifulTable - do robienia tabelek z danymi - uzywany np w aplikacji do portow COM.
 2. readchar - do szybkich apek z wyborem czegos - pozwala odczytac pojedynczy przycisk.
+3. colored - do kolorowania wyjścia konsoli - używane przy skryptach do szybkiego podglądu wykonania.
