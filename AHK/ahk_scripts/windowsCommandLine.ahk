@@ -18,6 +18,9 @@
 ; uruchomienie SA - puttyRunner
 ::saput::python c:\smallApps\puttyRunner.py
 
+; uruchomienie SA - binaryCompare - potem musimy podac 2 pliki do porownania
+::sacmpb::c:\smallApps\compareBinary.bat
+
 ; szybszy grep
 ::|gr::| grep 
 
