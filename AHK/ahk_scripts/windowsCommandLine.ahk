@@ -24,6 +24,9 @@
 ; szybszy grep
 ::|gr::| grep 
 
+; python - mega oszczednosc 3 znakow :p
+::pth::python
+
 ; komenda aktywna tylko w CMD - CMDer ma juz to wbudowane
 #If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
