@@ -37,7 +37,16 @@
 }</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for loop with different type" enabled="true" name="for typ">for(${type} ${var} = 0; ${var} &lt; ${max}; ${var}++) &#13;
 {&#13;
 	${line_selection}${cursor}&#13;
-}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="if statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.if" name="if">if(${condition}) 
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="guard dla plikow c" enabled="true" name="hguard">#ifdef __cplusplus&#13;
+extern "C"&#13;
+{&#13;
+#endif&#13;
+&#13;
+${cursor}&#13;
+&#13;
+#ifdef __cplusplus&#13;
+}&#13;
+#endif</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="if statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.if" name="if">if(${condition}) 
 {
 	${line_selection}${cursor}
 }</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="if else statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.ifelse" name="ifelse">if(${condition}) 
@@ -51,7 +60,9 @@ else
 {
 	${cursor}
 }
-</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="switch case statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.switch" name="switch">switch(${key}) 
+</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="duza sekcja do odznaczania w plikach" enabled="true" name="sectionB">/*********************************************************************************************************************/&#13;
+/*                                          ${cursor}                                                     */&#13;
+/*********************************************************************************************************************/</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="switch case statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.switch" name="switch">switch(${key}) 
 {
 	case ${value}:
 	{
