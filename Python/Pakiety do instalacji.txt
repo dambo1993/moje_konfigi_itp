@@ -2,3 +2,4 @@
 2. readchar - do szybkich apek z wyborem czegos - pozwala odczytac pojedynczy przycisk.
 3. colored - do kolorowania wyjścia konsoli - używane przy skryptach do szybkiego podglądu wykonania.
 4. pandas - biblioteka do m.in. wyciągania danych z tabelek ze stron internetowych.
+5. docopt - do parsowania prostych apek z command line - mega sprawa.
