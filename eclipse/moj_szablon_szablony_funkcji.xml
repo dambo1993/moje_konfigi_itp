@@ -34,7 +34,19 @@
 {&#13;
 	${cursor}&#13;
 	return;&#13;
-}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for loop with different type" enabled="true" name="for typ">for(${type} ${var} = 0; ${var} &lt; ${max}; ${var}++) &#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for po i uint16_t" enabled="true" name="foriu16">for(uint16_t i = 0; i &lt; ${max}; i++) &#13;
+{&#13;
+	${line_selection}${cursor}&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for po i uint8_t" enabled="true" name="foriu8">for(uint8_t i = 0; i &lt; ${max}; i++) &#13;
+{&#13;
+	${line_selection}${cursor}&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for po j uint16_t" enabled="true" name="forju16">for(uint16_t j = 0; j &lt; ${max}; j++) &#13;
+{&#13;
+	${line_selection}${cursor}&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for po j uint8_t" enabled="true" name="forju8">for(uint8_t j = 0; j &lt; ${max}; j++) &#13;
+{&#13;
+	${line_selection}${cursor}&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="for loop with different type" enabled="true" name="fortyp">for(${type} ${var} = 0; ${var} &lt; ${max}; ${var}++) &#13;
 {&#13;
 	${line_selection}${cursor}&#13;
 }</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="guard dla plikow c" enabled="true" name="hguard">#ifdef __cplusplus&#13;
@@ -60,9 +72,25 @@ else
 {
 	${cursor}
 }
-</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="duza sekcja do odznaczania w plikach" enabled="true" name="sectionB">/*********************************************************************************************************************/&#13;
-/*                                          ${cursor}                                                     */&#13;
-/*********************************************************************************************************************/</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="switch case statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.switch" name="switch">switch(${key}) 
+</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="duza sekcja do odznaczania w plikach */ dodane z powodu warningow" enabled="true" name="sectionB">/*********************************************************************************************************************/&#13;
+/*                                          ${cursor}*/&#13;
+/*********************************************************************************************************************/</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="sff1">static ${typ} ${nazwa_funkcji}(${typ1} ${zmienna1})&#13;
+{&#13;
+	${cursor}&#13;
+	return;&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="sff2">static ${typ} ${nazwa_funkcji}(${typ1} ${zmienna1}, ${typ2} ${zmienna2})&#13;
+{&#13;
+	${cursor}&#13;
+	return;&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="sff3">static ${typ} ${nazwa_funkcji}(${typ1} ${zmienna1}, ${typ2} ${zmienna2}, ${typ3} ${zmienna3})&#13;
+{&#13;
+	${cursor}&#13;
+	return;&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="sffv">static ${typ} ${nazwa_funkcji}(void)&#13;
+{&#13;
+	${cursor}&#13;
+	return;&#13;
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="switch case statement" enabled="true" id="org.eclipse.cdt.ui.text.templates.c.switch" name="switch">switch(${key}) 
 {
 	case ${value}:
 	{
@@ -73,4 +101,7 @@ else
 	{
 		break;	
 	}
-}</template></templates>
+}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="typedef dla callbackow" enabled="true" name="typcb">typedef ${type} (*${name})(${cursor});</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="typedef dla strukturki" enabled="true" name="typstr">typedef struct ${name} = &#13;
+{&#13;
+	${line_selection}${cursor}	&#13;
+}${name};</template></templates>
