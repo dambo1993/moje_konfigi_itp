@@ -28,3 +28,6 @@
 ::gaa::git add -A
 ::gchb::git checkout -b 
 ::grh::git reset --hard
+
+; uruchamianie okna explorera - czasem mi brakowalo tego tez tutaj
+::ex.::explorer .
