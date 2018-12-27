@@ -27,6 +27,9 @@
 ; python - mega oszczednosc 3 znakow :p
 ::pth::python
 
+; python - pip install - ostatnio duzo tego klepie
+::pthpi::python -m pip install 
+
 ; komenda aktywna tylko w CMD - CMDer ma juz to wbudowane
 #If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
