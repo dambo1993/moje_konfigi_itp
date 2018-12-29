@@ -21,6 +21,9 @@
 ; uruchomienie SA - binaryCompare - potem musimy podac 2 pliki do porownania
 ::sacmpb::c:\smallApps\compareBinary.bat
 
+; uruchomienie SA - cSectionFormatter
+::sacsf::python c:\smallApps\cSectionFormatter.py
+
 ; szybszy grep
 ::|gr::| grep 
 
