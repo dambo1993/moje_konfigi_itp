@@ -29,5 +29,7 @@
 ::gchb::git checkout -b 
 ::grh::git reset --hard
 
+::gps::git push
+
 ; uruchamianie okna explorera - czasem mi brakowalo tego tez tutaj
 ::ex.::explorer .
