@@ -8,5 +8,7 @@ Narzędzia "ulatwiajace" prace":
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
 
 
+
 Typowo narzedziowe:
 1. Moba Xterm - klient SSH, Serial portu itp
+2. ImDisk - do ustawienia RamDisków na windowsie
