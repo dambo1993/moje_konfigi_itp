@@ -104,4 +104,4 @@ else
 }</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="typedef dla callbackow" enabled="true" name="typcb">typedef ${type} (*${name})(${cursor});</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="typedef dla strukturki" enabled="true" name="typstr">typedef struct ${name} = &#13;
 {&#13;
 	${line_selection}${cursor}	&#13;
-}${name};</template></templates>
+}${name}_s;</template></templates>

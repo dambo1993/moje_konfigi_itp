@@ -33,6 +33,9 @@
 ; python - pip install - ostatnio duzo tego klepie
 ::pthpi::python -m pip install 
 
+; uruchomienie katalogu ze skryptami
+::ahkf::cd C:/ahk_scripts
+
 ; komenda aktywna tylko w CMD - CMDer ma juz to wbudowane
 #If WinActive("ahk_exe cmd.exe")
 ; kopiowanie w konsole
