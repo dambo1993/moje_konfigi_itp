@@ -9,7 +9,7 @@
 ::cmdrdr::commander device recover
 ::cmdrrra::commander readmem -d EFR32 --range 0x
 ::cmdrrre::commander readmem -d EFR32 --region @
-::cmdrme::commander device masserase -d EFR32
-::cmdrpere::commander device pageerase --region @
-::cmdrpera::commander device pageerase --range 0x
+::cmdrdme::commander device masserase -d EFR32
+::cmdrdpere::commander device pageerase --region @
+::cmdrdpera::commander device pageerase --range 0x
 ::cmdrf::commander flash -d EFR32 
