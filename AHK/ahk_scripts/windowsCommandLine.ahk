@@ -24,6 +24,15 @@
 ; uruchomienie SA - cSectionFormatter
 ::sacsf::python c:\smallApps\cSectionFormatter.py
 
+; uruchomienie SA - MQTT2COM
+::sam2c::python c:\smallApps\MQTT2COM.py
+
+; uruchomienie SA - MQTT2COM z adresem na moje RPi
+; w wersji "standardowej"
+::sam2crpis::python c:\smallApps\MQTT2COM.py -broker "192.168.0.11" -i input -o output -p 
+; w wersji z innymi in/out:
+::sam2crpi::python c:\smallApps\MQTT2COM.py -broker "192.168.0.11" 
+
 ; szybszy grep
 ::|gr::| grep 
 
