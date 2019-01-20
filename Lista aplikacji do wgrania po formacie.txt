@@ -12,3 +12,10 @@ Narzędzia "ulatwiajace" prace":
 Typowo narzedziowe:
 1. Moba Xterm - klient SSH, Serial portu itp
 2. ImDisk - do ustawienia RamDisków na windowsie
+
+
+IDE/Edytory tekstu:
+1. Eclipse - wiadomo + konfigi do niego z tego repo
+2. Visual Studio Code
+	- obsługa pythona
+	- Eclipse Keymap - zeby się milej pracowało
