@@ -15,6 +15,9 @@
 ; uruchomienie SA - porty COM
 ::sacom::python c:\smallApps\COMPorts.py
 
+; uruchomienie SA - porty COM z wyszukaniem nowych
+::sacomn::python c:\smallApps\COMPorts.py -n
+
 ; uruchomienie SA - puttyRunner
 ::saput::python c:\smallApps\puttyRunner.py
 
