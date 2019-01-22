@@ -6,7 +6,7 @@ import subprocess
 import sys
 
 selectedTerminal = None
-if length(sys.argv) == 2:
+if len(sys.argv) == 2:
 	selectedTerminal = sys.argv[1]
 else:
 	print("You need to select terminal!")
@@ -67,7 +67,7 @@ elif c >= b'1' and c < b'8':
 else:
 	exitFlag = True
 
-if selectedTerminal == "dmb":
+if selectedTerminal == "-dmb":
 	subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}"])
-elif selectedTerminal == "putty":
+elif selectedTerminal == "-putty":
 	subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort-1][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
