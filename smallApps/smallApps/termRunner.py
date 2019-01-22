@@ -3,6 +3,14 @@ import serial.tools.list_ports
 from beautifultable import BeautifulTable
 import readchar
 import subprocess
+import sys
+
+selectedTerminal = None
+if length(sys.argv) == 2:
+	selectedTerminal = sys.argv[1]
+else:
+	print("You need to select terminal!")
+	sys.exit(1)
 
 speeds = [ 9600, 14400, 19200, 28800, 57600, 76800, 115200, 230400 ]
 
@@ -59,5 +67,7 @@ elif c >= b'1' and c < b'8':
 else:
 	exitFlag = True
 
-subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort-1][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
-
+if selectedTerminal == "dmb":
+	subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}"])
+elif selectedTerminal == "putty":
+	subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort-1][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
