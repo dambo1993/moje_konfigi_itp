@@ -24,6 +24,10 @@
 ; uruchomienie SA - termRunner - dambusiowa_konsolka
 ::sadmb::python c:\smallApps\termRunner.py -dmb
 
+; uruchomienie SA - termRunner - dambusiowa_konsolka + podanie nazwy
+::sadmb::python c:\smallApps\termRunner.py -dmb -n 
+
+
 ; uruchomienie SA - binaryCompare - potem musimy podac 2 pliki do porownania
 ::sacmpb::c:\smallApps\compareBinary.bat
 

@@ -4,10 +4,21 @@ from beautifultable import BeautifulTable
 import readchar
 import subprocess
 import sys
+import argparse
+
+parser = argparse.ArgumentParser(description='Poor "GUI" to select ports to some terminals apps')
+parser.add_argument('-dmb', help='dambusiowa konsolka', action='store_true')
+parser.add_argument('-putty', help='putty', action='store_true')
+parser.add_argument('-n', nargs=1, help='Name of the terminal for "dambusiowa konsolka"')
+args = parser.parse_args()
+
 
 selectedTerminal = None
-if len(sys.argv) == 2:
-	selectedTerminal = sys.argv[1]
+
+if args.dmb == True:
+	selectedTerminal = "dmb"
+elif args.putty == True:
+	selectedTerminal = "putty"
 else:
 	print("You need to select terminal!")
 	sys.exit(1)
@@ -67,7 +78,11 @@ elif c >= b'1' and c < b'8':
 else:
 	exitFlag = True
 
-if selectedTerminal == "-dmb":
-	subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}"])
-elif selectedTerminal == "-putty":
+if selectedTerminal == "dmb":
+	if args.n != None:
+		print(f"Name: {args.n[0]}")
+		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}","-n",f"{args.n[0]}"])
+	else:
+		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}"])
+elif selectedTerminal == "putty":
 	subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort-1][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
