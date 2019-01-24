@@ -4,3 +4,4 @@
 4. pandas - biblioteka do m.in. wyciągania danych z tabelek ze stron internetowych.
 5. docopt - do parsowania prostych apek z command line - mega sprawa.
 6. clipboard - przekazywanie danych do/z schowka systemowego.
+7. auto-py-to-exe - do tworzenia ladnego exeka ze skryptu (czasem sie przydaje).
