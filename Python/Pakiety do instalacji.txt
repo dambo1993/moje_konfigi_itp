@@ -5,3 +5,6 @@
 5. docopt - do parsowania prostych apek z command line - mega sprawa.
 6. clipboard - przekazywanie danych do/z schowka systemowego.
 7. auto-py-to-exe - do tworzenia ladnego exeka ze skryptu (czasem sie przydaje).
+8. paho-mqtt - obsluga mqtt w pythonie
+9. flask - prosty serwerek http
+10. flask-mqtt - flask polaczony z paho-mqtt - tzn dodatkowy wrapper na paho-mqtt.
