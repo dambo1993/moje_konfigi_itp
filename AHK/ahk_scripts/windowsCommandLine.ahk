@@ -27,7 +27,6 @@
 ; uruchomienie SA - termRunner - dambusiowa_konsolka + podanie nazwy
 ::sadmbn::python c:\smallApps\termRunner.py -dmb -n 
 
-
 ; uruchomienie SA - binaryCompare - potem musimy podac 2 pliki do porownania
 ::sacmpb::c:\smallApps\compareBinary.bat
 
@@ -54,6 +53,12 @@
 
 ; uruchomienie katalogu ze skryptami
 ::ahkf::cd C:/ahk_scripts
+
+; ls - zawsze z kolorami:
+::ls::ls --show-control-chars -F --color
+
+; ls -la - tez z kolorami + bez myslnika
+::lsla::ls --show-control-chars -F --color -la
 
 ; komenda aktywna tylko w CMD - CMDer ma juz to wbudowane
 #If WinActive("ahk_exe cmd.exe")
