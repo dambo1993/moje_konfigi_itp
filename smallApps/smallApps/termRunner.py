@@ -5,13 +5,13 @@ import readchar
 import subprocess
 import sys
 import argparse
+import COMutils
 
 parser = argparse.ArgumentParser(description='Poor "GUI" to select ports to some terminals apps')
 parser.add_argument('-dmb', help='dambusiowa konsolka', action='store_true')
 parser.add_argument('-putty', help='putty', action='store_true')
 parser.add_argument('-n', nargs=1, help='Name of the terminal for "dambusiowa konsolka"')
 args = parser.parse_args()
-
 
 selectedTerminal = None
 
@@ -35,22 +35,12 @@ def printSpeeds():
 		number += 1
 	print(table)
 	
-def printPortsInfo(ports):
-	print("Active COM ports:")
-	table = BeautifulTable()
-	table.column_headers = ["N", "PORT", "DESCRIPTION", "HWID"]
-	number = 1
-	for port, desc, hwid in ports:
-		table.append_row([number, port, desc, hwid])
-		number += 1
-	print(table)
-	
 sortedPorts = sorted(serial.tools.list_ports.comports())
 if len(sortedPorts) == 0:
 	print("COM PORTS NOT FOUND!!!")
 	sys.exit(0)
 
-printPortsInfo(sortedPorts)
+COMutils.printPortsInfo(sortedPorts)
 
 print("")
 print(f"Select port COM (1-{len(sortedPorts)})")
