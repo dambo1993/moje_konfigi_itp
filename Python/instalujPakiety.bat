@@ -6,4 +6,5 @@ python -m pip install --upgrade pandas
 python -m pip install --upgrade docopt
 python -m pip install --upgrade clipboard
 python -m pip install --upgrade auto-py-to-exe
+python -m pip install --upgrade paramiko
 @set /p DUMMY=Hit ENTER to continue...
