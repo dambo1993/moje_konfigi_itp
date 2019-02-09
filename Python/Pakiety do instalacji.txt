@@ -8,3 +8,5 @@
 8. paho-mqtt - obsluga mqtt w pythonie
 9. flask - prosty serwerek http
 10. flask-mqtt - flask polaczony z paho-mqtt - tzn dodatkowy wrapper na paho-mqtt.
+11. paramiko - dostep przez ssh np do raspberego i wykonywanie na nim 
+komend - obecnie dla mnie alternatywa do wykonywania tego przez putty
