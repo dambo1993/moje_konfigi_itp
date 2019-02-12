@@ -1,1 +1,0 @@
-1. Wyłączenie zmiany układu klawiatury: https://stackoverflow.com/questions/13694332/left-ctrl-shift-switches-my-keyboard-to-dvorak-and-i-would-like-to-stop-it-fro

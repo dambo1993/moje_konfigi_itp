@@ -1,4 +1,4 @@
-Narzędzia "ulatwiajace" prace":
+### Narzędzia "ulatwiajace" prace" ###
 1. Executor - mega launcher
 2. 7+ Taskbar Numberer - numerki na pasku zadan
 3. Ditto - historia schowka systemowego
@@ -9,15 +9,15 @@ Narzędzia "ulatwiajace" prace":
 
 
 
-Typowo narzedziowe:
+### Typowo narzedziowe ###
 1. Moba Xterm - klient SSH, Serial portu itp
 2. ImDisk - do ustawienia RamDisków na windowsie
 	- ImDisk Virtual Disk driver
 	- RamDisk Configuration - pod ta nazwa tego szukac w executorze
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
 
+### IDE/Edytory tekstu ###
 
-IDE/Edytory tekstu:
 1. Eclipse - wiadomo + konfigi do niego z tego repo
 2. Visual Studio Code
 	- obsługa pythona
