@@ -22,3 +22,4 @@
 2. Visual Studio Code
 	- obsługa pythona
 	- Eclipse Keymap - zeby się milej pracowało
+3. MarkdownPad - edytor/przeglądarka Markdownów
