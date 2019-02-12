@@ -12,6 +12,8 @@ Narzędzia "ulatwiajace" prace":
 Typowo narzedziowe:
 1. Moba Xterm - klient SSH, Serial portu itp
 2. ImDisk - do ustawienia RamDisków na windowsie
+	- ImDisk Virtual Disk driver
+	- RamDisk Configuration - pod ta nazwa tego szukac w executorze
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
 
 
