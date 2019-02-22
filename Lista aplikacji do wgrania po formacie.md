@@ -6,7 +6,7 @@
 5. Desktop OK - zapisanie pozycji ikon gdy zmienia sie uklad monitorow
 6. CMDer - zamiennik CMD na windowsie
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
-
+8. Hexplorer - do podglądu plików hex.
 
 
 ### Typowo narzedziowe ###
@@ -23,3 +23,9 @@
 	- obsługa pythona
 	- Eclipse Keymap - zeby się milej pracowało
 3. MarkdownPad - edytor/przeglądarka Markdownów
+
+
+
+### Apki dodane do patha ###
+
+1. Hexplorer -> hexplo <nazwa pliku do uruchomienia>
