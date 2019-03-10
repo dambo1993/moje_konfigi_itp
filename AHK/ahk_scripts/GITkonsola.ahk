@@ -24,6 +24,7 @@
 ::-h::--help
 
 ::gcm::git commit -m "
+::gcam::git commit -a -m "
 ::gcaem::git commit --allow-empty -m "
 ::gaa::git add -A
 ::gchb::git checkout -b 
