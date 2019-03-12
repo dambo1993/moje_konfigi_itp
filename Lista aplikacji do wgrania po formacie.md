@@ -7,6 +7,8 @@
 6. CMDer - zamiennik CMD na windowsie
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
 8. Hexplorer - do podglądu plików hex.
+9. Winmerge - porównywanie plików <nazwa to winmergeU>
+10. Meld - porównywanie katalogów i też plików
 
 
 ### Typowo narzedziowe ###
