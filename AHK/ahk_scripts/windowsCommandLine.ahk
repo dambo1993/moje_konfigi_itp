@@ -45,6 +45,9 @@
 ; szybszy grep
 ::|gr::| grep 
 
+; ladne wylistowanie patha systemowego
+::sapath::for %p in ("%path:;=";"%") do @echo %~p
+
 ; python - mega oszczednosc 3 znakow :p
 ::pth::python
 
