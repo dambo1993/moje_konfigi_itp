@@ -1,0 +1,39 @@
+Kolejność przypadkowa (przed formatem telefonu):
+
+Ogólne:
+	- Night shift
+	- Poweramp
+
+Zadania/notatki:
+	- Todoist
+	- Stackedit
+	- Notatki keep
+
+Sport/fit:
+	- Fitatu
+	- Gym rest timer
+	- Endomondo
+
+BLE/toole BLE/mikrokontrolery
+	- ST BLE sensor
+	- STM32 BLE Profiles
+	- BLE scanner
+	- LightBlue
+
+	- Blue Gecko
+	- Wireless Gecko
+
+	- MQTT dashboard
+
+	- Fibaro - do sterowania mieszkaniem
+
+	- blockfolio
+
+Komunikatory itp:
+	- WhatsUp
+	- Instagram
+	
+Użytkowe:
+	- nextbike
+	- Jakdojade
+	- tłumacz
