@@ -5,80 +5,112 @@ import argparse
 import serial
 import sys
 
+import json
 import time
 import threading
 
-debugFlag = False
-inputTopic = ""
-outputTopic = ""
+class MQTT2COM():
+	debugFlag = False
+	inputTopic = ""
+	outputTopic = ""
+	brokerAddress = ""
 
-serialPort = ""
-baudrate = 115200
-ser = None
+	serialPort = ""
+	baudrate = 115200
+	ser = None
 
+	client = None
 
-def log(txt):
-    global debugFlag
-    if debugFlag:
-        print(txt)
-        pass
+	def log(self, txt):
+		if self.debugFlag:
+			print(txt)
+			pass
 
+	def checkDebugFlag(self, args):
+		self.debugFlag = args.debug
+
+	def checkSettingsParams(self, args):	
+		self.checkDebugFlag(args)
+		if args.f != None:
+			self.log(f"Settings from file: {args.f[0]}")
+			#try:
+			settings = json.load(open('settings.json'))
+			self.log(settings)
+			
+			self.brokerAddress = settings['broker']
+			self.inputTopic = settings['input']
+			self.outputTopic = settings['output']
+			self.serialPort = settings['port']
+			self.baudrate = settings['baudrate']				
+			#except:
+			#	print("Error in settings file")
+			#	sys.exit(1)			
+
+		elif args.p != None and args.i != None and args.o != None:
+			self.serialPort = args.p[0]
+			self.inputTopic = args.i[0]
+			self.outputTopic = args.o[0]
+			self.brokerAddress = args.b[0]
+			
+			if args.b != None:
+				self.baudrate = int(args.b[0])
+		else:
+			print("Error in parameters!!!")
+			sys.exit(1)
+
+	def serialReceiverThread(self):
+		while True:
+			payload = self.ser.readline()
+			if payload != b'':
+				p = bytearray(payload)
+				if 0x10 in p:
+					p.remove(0x10)
+				if 0x13 in p:
+					p.remove(0x13)
+				self.log("Serial received: " + str(p))
+				self.client.publish(self.outputTopic, p)
+	
+	@staticmethod
+	def on_connect(self, userdata, flags, rc):
+		userdata.client.subscribe(userdata.inputTopic, 0)
+
+	@staticmethod
+	def on_message(client, userdata, msg):
+		userdata.log("MQTT received: " + str(msg.payload))
+		payload = bytearray(msg.payload)
+		payload.append(0x10)
+		userdata.ser.write(payload)
+
+	def start(self):
+		try:
+			self.ser = serial.Serial(self.serialPort, baudrate=self.baudrate, timeout=0.1)
+		except:
+			print("Serial port error!")
+			sys.exit(1)
+
+		self.client = mqtt.Client(userdata=self)
+		self.client.on_connect = self.on_connect
+		self.client.on_message = self.on_message
+		self.client.connect(self.brokerAddress, 1883, 60)
+
+		t_receiver = threading.Thread(target=self.serialReceiverThread)
+		t_receiver.daemon = True
+		t_receiver.start()
+
+		self.client.loop_forever()
+			
 parser = argparse.ArgumentParser(description='Convert MQTT to serial and vice-versa')
-parser.add_argument('-p', nargs=1, help='serial port device/COMport', required=True)
-parser.add_argument('-b', nargs=1, default="115200", help='baudrate of serial port', required=False)
-parser.add_argument('-broker', nargs=1, help='Address of the MQTT broker', required=True)
-parser.add_argument('-i', nargs=1, help='Input topic', required=True)
-parser.add_argument('-o', nargs=1, help='Output topic', required=True)
-parser.add_argument('-print', nargs=1, help='print mode on/off', default="off", choices=["0","1"], required=False)
+parser.add_argument('-p', nargs=1, help='serial port device/COMport')
+parser.add_argument('-b', nargs=1, default="115200", help='baudrate of serial port')
+parser.add_argument('-broker', nargs=1, help='Address of the MQTT broker')
+parser.add_argument('-i', nargs=1, help='Input topic')
+parser.add_argument('-o', nargs=1, help='Output topic')
+parser.add_argument('-f', nargs=1, help='settings file - instead of previous params form command')
+parser.add_argument('--debug', help='console debug enable', action='store_true')
 args = parser.parse_args()
 
-if args.print != None:
-    if args.print[0] == "1":
-        debugFlag = True
-    else:
-        debugFlag = False
+app = MQTT2COM()
 
-baudrate = int(args.b[0])
-serialPort = args.p[0]
-inputTopic = args.i[0]
-outputTopic = args.o[0]
+app.checkSettingsParams(args)
 
-def serialReceiver():
-    while True:
-        payload = ser.readline()
-        if payload != b'':
-            p = bytearray(payload)
-            if 0x10 in p:
-                p.remove(0x10)
-            if 0x13 in p:
-                p.remove(0x13)
-            log("Serial received: " + str(p))
-            client.publish(outputTopic, p)
-
-def on_connect(self, mosq, obj, rc):
-	log("Connected with result code " + str(rc))
-	self.subscribe(inputTopic,0)
-
-def on_message(client, userdata, msg):
-    log("MQTT received: " + str(msg.payload))
-    payload = bytearray(msg.payload)
-    payload.append(0x10)
-    ser.write(payload)
-
-try:
-    ser = serial.Serial(serialPort, baudrate=115200, timeout=0.1)
-except:
-    print("Serial port error!")
-    sys.exit(1)
-    pass
-
-client = mqtt.Client()
-client.on_connect = on_connect
-client.on_message = on_message
-client.connect(args.broker[0], 1883, 60)
-
-t_receiver = threading.Thread(target=serialReceiver)
-t_receiver.daemon = True
-t_receiver.start()
-
-client.loop_forever()
+app.start()
