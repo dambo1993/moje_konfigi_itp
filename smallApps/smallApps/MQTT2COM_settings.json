@@ -1,0 +1,9 @@
+{ 
+    "type":"MQTT2COM", 
+	
+    "broker":"192.168.0.11",
+    "input":"input_topic",
+    "output":"output_topic",
+    "port":"COM45",
+	"baudrate":"115200"
+}
