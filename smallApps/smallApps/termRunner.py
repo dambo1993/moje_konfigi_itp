@@ -46,7 +46,16 @@ print("")
 print(f"Select port COM (1-{len(sortedPorts)})")
 print("")
 c = readchar.readchar()
-selectedPort = int(c)
+
+if c == b'\r':
+	if len(sortedPorts) == 1:
+		selectedPort = 1
+	else:
+		print("You can only press enter for single port in array")
+		sys.exit(0)
+else:
+	selectedPort = int(c)
+	
 if selectedPort >= 1 and selectedPort <= len(sortedPorts):
 	print(f"Selected COM: {sortedPorts[selectedPort-1][0]}")
 else:
