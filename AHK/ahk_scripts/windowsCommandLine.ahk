@@ -42,6 +42,9 @@
 ; w wersji z innymi in/out:
 ::sam2crpi::python c:\smallApps\MQTT2COM.py -broker "192.168.0.11" 
 
+; uruchomienie SA - pozycje stringa
+::sasp::python c:\smallApps\string_positions.py 
+
 ; szybszy grep
 ::|gr::| grep 
 
