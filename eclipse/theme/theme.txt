@@ -2,3 +2,7 @@ Pobieram dodatek: Darkest Dark Theme.
 
 Do niego dogrywam theme "Vibrant Ink" z tej stronki:
 http://www.eclipsecolorthemes.org/?list=downloads&filter=dark&q=
+
+Dodatkowe modyfikacje - w menu "Syntax coloring":
+- code->global variables -> enable + kolor "czerwonawo/bordowy"
+- Macro references -> enable + jasny błękitny/turkus
