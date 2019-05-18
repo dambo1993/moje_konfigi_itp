@@ -4,5 +4,11 @@ Do niego dogrywam theme "Vibrant Ink" z tej stronki:
 http://www.eclipsecolorthemes.org/?list=downloads&filter=dark&q=
 
 Dodatkowe modyfikacje - w menu "Syntax coloring":
-- code->global variables -> enable + kolor "czerwonawo/bordowy"
-- Macro references -> enable + jasny błękitny/turkus
+- code->global variables -> enable + kolor "różowawo/fioletowy/purpurowy" - w palecie - K8;R2
+- code->Functions - jasny zielony - w palecie - K3;R3
+- code->Macro references -> enable + jasny błękitny/turkus 
+
+Kolejna modyfikacja:
+- c/c++->Build->Console  -> zmieniam tutaj "Background color for warnings na "brązowy" (K2;R5 w palecie barw)
+
+Powyższe zmiany są uwzględnione w pliku "custom_syntax_coloring.epf" dołączonym w tym katalogu.
