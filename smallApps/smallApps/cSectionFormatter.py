@@ -7,7 +7,7 @@ text = sys.argv[1]
 
 lineSeparators = "/" + ((length - 2) * "*") + "/"
 
-linetxt = "/*" + text.center(length - 4) + "*/"
+linetxt = "/**" + text.center(length - 6) + "**/"
 
 output = lineSeparators + "\n" + linetxt + "\n" + lineSeparators
 
