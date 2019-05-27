@@ -8,3 +8,4 @@ start C:\ahk_scripts\dane.ahk
 start C:\ahk_scripts\eclipse.ahk
 start C:\ahk_scripts\arrows.ahk
 start C:\ahk_scripts\ahk_advanced_windows_positions.ahk
+start C:\ahk_scripts\create-new-file.ahk

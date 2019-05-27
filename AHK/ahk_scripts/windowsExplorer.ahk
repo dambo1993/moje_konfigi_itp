@@ -21,17 +21,6 @@ Send, {Enter}
 
 return
 
-; utworzenie nowego pliku
-F7::
-Send, {alt}
-Send, p
-Send, w
-Send, {Up}
-Send, {Up}
-Send, {Enter}
-Send, ^A
-return
-
 ; otwarcie pliku w notepadzie
 F9::
 Send, ^c

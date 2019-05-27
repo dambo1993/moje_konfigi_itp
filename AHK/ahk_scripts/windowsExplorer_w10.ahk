@@ -15,20 +15,6 @@ Send, "
 Send, {Enter}
 return
 
-; utworzenie nowego pliku
-F7::
-Send, {AppsKey}
-Send, {Up}
-Send, {Up}
-Send, {Right}
-Send, {Up}
-Send, {Up}
-Send, {Up}
-Send, {Enter}
-Send, ^A
-Send, ^A
-return
-
 ; otwarcie pliku w notepadzie
 F9::
 Send, ^c
