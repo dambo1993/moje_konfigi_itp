@@ -34,9 +34,8 @@ return
 
 ; otwarcie pliku w notepadzie
 F9::
-Send, {AppsKey}
-Send, n
-Send, {Enter}
+Send, ^c
+Run, notepad++.exe %Clipboard%
 return
 
 ; otwarcie gita w aktualnym katalogu
