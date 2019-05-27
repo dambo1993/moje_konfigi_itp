@@ -5,8 +5,10 @@
 
 ; otwarcie pliku w notepadzie
 F9::
+temp := clipboardAll
 Send, ^c
 Run, notepad++.exe %Clipboard%
+clipboard := temp
 return
 
 ; otwarcie gita w aktualnym katalogu
