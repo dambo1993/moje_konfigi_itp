@@ -1,8 +1,12 @@
 ### Narzędzia "ulatwiajace" prace" ###
-1. Executor - mega launcher
-2. 7+ Taskbar Numberer - numerki na pasku zadan
+1. Executor - mega launcher + małe apki w sobie typu timer
+	- http://executor.dk/
+2. 7+ Taskbar Numberer - numerki na pasku zadan - ale w win 10 już są wbudowane + w sumie już zawsze mam tak samo poukładane
+	- https://rammichael.com/7-taskbar-numberer
 3. Ditto - historia schowka systemowego
+	- https://ditto-cp.sourceforge.io/
 4. AutoHotKey - mega skrypty/makra
+	- https://www.autohotkey.com/
 5. Desktop OK - zapisanie pozycji ikon gdy zmienia sie uklad monitorow
 6. CMDer - zamiennik CMD na windowsie
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
