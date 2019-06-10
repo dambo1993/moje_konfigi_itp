@@ -7,7 +7,7 @@
 F9::
 temp := clipboardAll
 Send, ^c
-Run, notepad++.exe %Clipboard%
+Run, notepad++.exe "%Clipboard%"
 clipboard := temp
 return
 
