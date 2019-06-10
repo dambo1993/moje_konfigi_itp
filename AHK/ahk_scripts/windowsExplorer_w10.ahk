@@ -5,10 +5,9 @@
 
 ; otwarcie pliku w notepadzie
 F9::
-temp := clipboardAll
-Send, ^c
-Run, notepad++.exe %Clipboard%
-clipboard := temp
+Send, !{AppsKey}
+Send, n
+Send, {Enter}
 return
 
 ; otwarcie gita w aktualnym katalogu
@@ -21,7 +20,7 @@ return
 
 ; uruchomienie CMDera w aktualnie otwartym oknie
 F8::
-Send, !a
+Send, !d
 Send, {End}
 Send, "
 Send, {Home}
