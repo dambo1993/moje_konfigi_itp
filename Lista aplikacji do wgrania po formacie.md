@@ -26,7 +26,7 @@
 
 ### IDE/Edytory tekstu ###
 
-1. Eclipse - wiadomo + konfigi do niego z tego repo
+1. Eclipse - wiadomo + konfigi do niego z tego repo z katalogu eclipse.
 2. Visual Studio Code
 	- obsługa pythona
 	- Eclipse Keymap - zeby się milej pracowało
@@ -37,3 +37,10 @@
 ### Apki dodane do patha ###
 
 1. Hexplorer -> hexplo <nazwa pliku do uruchomienia>
+
+### Przegladarki ###
+Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
+
+Do dogrania do przeglądarek:
+1. Vimium oczywiście
+	- notka - do wychodzenia z address bara można użyć wejścia i wyjścia z wyszukiwania (CTRL+F)
