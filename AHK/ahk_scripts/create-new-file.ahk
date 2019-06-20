@@ -1,3 +1,4 @@
+#SingleInstance force
 ; This is part of my AutoHotKey [1] script. When you are in Windows Explorer it
 ; allows you to press Alt+N and type a filename, and that file is created
 ; in the current directory and opened in the appropriate editor (usually
