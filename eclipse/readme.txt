@@ -1,14 +1,13 @@
-Moje małe "wspomagacze" dla eclipse. 
+Moje małe "wspomagacze" dla eclipse, ogolnie opis moich ustawien glownie zeby uproscic sobie tworzenie nowych workspacow itp.
 
-Formatowanie kodu - szukamy w ustawieniach pod hasłem "formatter".
+Przez jakie opcje zimportować ustawienia:
+    - Formatowanie kodu - szukamy w ustawieniach pod hasłem "formatter".
+    - Szablony pod hasłem "Templates" w zakładkach C/Cpp/Editor/Templates.
+    - Keybindings - przez menu file import.
 
-Szablony pod hałem "Templates" w zakładkach C/Cpp/Editor/Templates.
+Co jeszcze do znalezioenia w tym repo:
+    - theme - jaki mam aktywny motyw itp.
 
-Keybindings - przez menu file import.
-
-Theme - jaki mam aktywny motyw itp.
-
-
-Jakie dodatki zainstalować:
-- darkest dark (opisane w katalogu theme)
-- vrapper - vim w edytorze eclipse + skrót do jego przełączenia ustawiony jak ALT+V
+Dodotki do zainstalowania przez marketplace:
+	- darkest dark (opisane w katalogu theme)
+	- vrapper - vim w edytorze eclipse + skrót do jego przełączenia ustawiony jak ALT+V
