@@ -44,3 +44,9 @@ Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
 Do dogrania do przeglądarek:
 1. Vimium oczywiście
 	- notka - do wychodzenia z address bara można użyć wejścia i wyjścia z wyszukiwania (CTRL+F)
+
+
+### Aplikacje do sprawdzenia kiedyś ###
+
+1. MaxLauncher - jako uzupełnienie executora i AHK - a bardziej jako zamiennik dmenu z linuxa, bo nic mądrzejszego nie znalazłem z menu, a nie komendami
+	- https://maxlauncher.sourceforge.io/	
