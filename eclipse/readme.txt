@@ -11,3 +11,6 @@ Co jeszcze do znalezioenia w tym repo:
 Dodotki do zainstalowania przez marketplace:
 	- darkest dark (opisane w katalogu theme)
 	- vrapper - vim w edytorze eclipse + skrót do jego przełączenia ustawiony jak ALT+V
+	
+	
+Do zrobienia w systemie - wylaczenie obracania monitorow - ten sam skrot jest wykorzystywane w eclipsie - w katalogu znajduje sie zcreen jak to ustawic.
