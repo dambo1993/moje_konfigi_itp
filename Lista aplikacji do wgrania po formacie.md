@@ -44,6 +44,9 @@ Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
 Do dogrania do przeglądarek:
 1. Vimium oczywiście
 	- notka - do wychodzenia z address bara można użyć wejścia i wyjścia z wyszukiwania (CTRL+F)
+2. Google Search Keyboard Shortcuts - do poruszania się w wyszukiwaniach google latwiej - jako uzupełnienie Vimium'a
+3. LeechBlock NG :)
+4. Video Speed Controller - i śmigać na 1.5
 
 
 ### Aplikacje do sprawdzenia kiedyś ###
