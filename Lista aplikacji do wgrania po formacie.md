@@ -44,6 +44,14 @@ Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
 Do dogrania do przeglądarek:
 1. Vimium oczywiście
 	- notka - do wychodzenia z address bara można użyć wejścia i wyjścia z wyszukiwania (CTRL+F)
+	- mój skrypt do Vimium do wgrania w ustawienia:
+```
+# odwrocenie przewijania kart - tzn tak jak PgUp i PgDn:
+unmap J
+unmap K
+map J nextTab
+map K previousTab
+```
 2. Google Search Keyboard Shortcuts - do poruszania się w wyszukiwaniach google latwiej - jako uzupełnienie Vimium'a
 3. LeechBlock NG :)
 4. Video Speed Controller - i śmigać na 1.5
