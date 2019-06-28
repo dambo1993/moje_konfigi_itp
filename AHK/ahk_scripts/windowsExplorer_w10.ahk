@@ -6,7 +6,9 @@
 ; otwarcie pliku w notepadzie
 F9::
 Send, !{AppsKey}
+sleep, 1
 Send, n
+sleep, 1
 Send, {Enter}
 return
 
