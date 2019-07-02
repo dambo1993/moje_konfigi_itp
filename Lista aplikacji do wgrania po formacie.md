@@ -55,6 +55,7 @@ map K previousTab
 2. Google Search Keyboard Shortcuts - do poruszania się w wyszukiwaniach google latwiej - jako uzupełnienie Vimium'a
 3. LeechBlock NG :)
 4. Video Speed Controller - i śmigać na 1.5
+5. Youtube Collection Manager - ładne zarządzanie subskrypcjami
 
 
 ### Aplikacje do sprawdzenia kiedyś ###
