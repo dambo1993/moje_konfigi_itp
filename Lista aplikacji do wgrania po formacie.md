@@ -62,3 +62,5 @@ map K previousTab
 
 1. MaxLauncher - jako uzupełnienie executora i AHK - a bardziej jako zamiennik dmenu z linuxa, bo nic mądrzejszego nie znalazłem z menu, a nie komendami
 	- https://maxlauncher.sourceforge.io/	
+2. hunt-and-peck - Vimium, ale dla wszystkich okien - jednak aktualnie trochę zbyt wolno to reaguje :( - może potem warto poszukać jakiejś alternatywy, albo całkiem przejść na Arch
+	- https://github.com/zsims/hunt-and-peck
