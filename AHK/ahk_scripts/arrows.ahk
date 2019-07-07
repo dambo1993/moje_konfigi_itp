@@ -9,3 +9,10 @@ CapsLock & ,::Send {PgUp}
 
 ; Optional feature - Caps lock always off
 CapsLock::SetCapsLockState, Off
+
+; only in explorer - to easy move in folders:
+#IfWinActive ahk_exe Explorer.EXE
+CapsLock & `;::Send {Enter}
+CapsLock & i::Send !{Up}
+
+
