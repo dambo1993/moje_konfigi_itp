@@ -15,6 +15,7 @@
 10. Meld - porównywanie katalogów i też plików
 11. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
 12. yEd - do rysowania diagramów
+13. ViFM - nie radio, a FileManager ze składnią Vima :)
 
 
 ### Typowo narzedziowe ###
