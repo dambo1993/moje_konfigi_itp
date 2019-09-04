@@ -11,12 +11,12 @@
 6. CMDer - zamiennik CMD na windowsie
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
 8. Hexplorer - do podglądu plików hex.
-9. Winmerge - porównywanie plików <nazwa to winmergeU>
+9. BeyondCompare - zaawansowana porownywarka plikow, kodow(np pomijanie komentarzy, minorow, kolorowanie), katalogow itp!
+	- Winmerge - porównywanie plików <nazwa to winmergeU> -> tego uzywalem wczesniej
 10. Meld - porównywanie katalogów i też plików
 11. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
 12. yEd - do rysowania diagramów
 13. ViFM - nie radio, a FileManager ze składnią Vima :)
-
 
 ### Typowo narzedziowe ###
 1. Moba Xterm - klient SSH, Serial portu itp
@@ -65,3 +65,4 @@ map K previousTab
 	- https://maxlauncher.sourceforge.io/	
 2. hunt-and-peck - Vimium, ale dla wszystkich okien - jednak aktualnie trochę zbyt wolno to reaguje :( - może potem warto poszukać jakiejś alternatywy, albo całkiem przejść na Arch
 	- https://github.com/zsims/hunt-and-peck
+3. KeyRocket - do nauki skrotow na windowsie, ale apka komercyjna - 100 dolarow :/
