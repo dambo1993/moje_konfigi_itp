@@ -11,7 +11,7 @@ Co jeszcze do znalezioenia w tym repo:
 Dodatki do zainstalowania przez marketplace:
 	- darkest dark (opisane w katalogu theme)
 	- vrapper - vim w edytorze eclipse + skrót do jego przełączenia ustawiony jak ALT+V
-	- EasyShell - domyślnie służy do otwierania rzeczy w explorerze, ale od tego mama skróty - dla mnie fajną rzeczą jest możliwość skopiowania ścieżki do pliku z poziomu klawiatury
+	- EasyShell - domyślnie służy do otwierania rzeczy w explorerze, ale od tego mama skróty - dla mnie fajną rzeczą jest możliwość skopiowania ścieżki do pliku z poziomu klawiatury Alt+Shift+E i wybrać opcję. TODO - poczaić więcej jego możliwości!
 	
 	
 Do zrobienia w systemie - wylaczenie obracania monitorow - ten sam skrot jest wykorzystywane w eclipsie - w katalogu znajduje sie zcreen jak to ustawic.
