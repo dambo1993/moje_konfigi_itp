@@ -6,7 +6,7 @@ Przez jakie opcje zimportować ustawienia:
     - Keybindings - przez menu file import.
 
 Co jeszcze do znalezioenia w tym repo:
-    - theme - jaki mam aktywny motyw itp.
+    - theme - jaki mam aktywny motyw itp. - sa tam tez customowe ustawienia - do zacciagniecia zawsze!
 
 Dodatki do zainstalowania przez marketplace:
 	- darkest dark (opisane w katalogu theme)
