@@ -24,6 +24,9 @@
 ; uruchomienie SA - termRunner - dambusiowa_konsolka
 ::sadmb::python c:\smallApps\termRunner.py -dmb
 
+; uruchomienie SA - termRunner - teraterm (wymaga sciezki do niej w pathu)
+::satt::python c:\smallApps\termRunner.py -teraterm
+
 ; uruchomienie SA - termRunner - dambusiowa_konsolka + podanie nazwy
 ::sadmbn::python c:\smallApps\termRunner.py -dmb -n 
 

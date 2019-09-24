@@ -10,6 +10,7 @@ import COMutils
 parser = argparse.ArgumentParser(description='Poor "GUI" to select ports to some terminals apps')
 parser.add_argument('-dmb', help='dambusiowa konsolka', action='store_true')
 parser.add_argument('-putty', help='putty', action='store_true')
+parser.add_argument('-teraterm', help='teraterm', action='store_true')
 parser.add_argument('-n', nargs=1, help='Name of the terminal for "dambusiowa konsolka"')
 args = parser.parse_args()
 
@@ -19,6 +20,8 @@ if args.dmb == True:
 	selectedTerminal = "dmb"
 elif args.putty == True:
 	selectedTerminal = "putty"
+elif args.teraterm == True:
+	selectedTerminal = "teraterm"
 else:
 	print("You need to select terminal!")
 	sys.exit(1)
@@ -26,7 +29,7 @@ else:
 speeds = [ 9600, 14400, 19200, 28800, 57600, 76800, 115200, 230400 ]
 
 def printSpeeds():
-	number = 0
+	number = 1
 	table = BeautifulTable()
 	print("Select baudrate, default is 115200 (q for quit)")
 	table.column_headers = ["N", "SPEED"]
@@ -85,3 +88,8 @@ if selectedTerminal == "dmb":
 		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}"])
 elif selectedTerminal == "putty":
 	subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort-1][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
+elif selectedTerminal == "teraterm":
+	comNumber = sortedPorts[selectedPort-1][0][3:]
+	print(comNumber)
+	subprocess.Popen(["ttermpro",f"/C={comNumber}", f"/BAUD={speeds[selectedSpeed]}"])	
+	
