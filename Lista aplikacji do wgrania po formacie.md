@@ -31,7 +31,9 @@
 2. Visual Studio Code
 	- obsługa pythona
 	- Eclipse Keymap - zeby się milej pracowało
-3. MarkdownPad - edytor/przeglądarka Markdownów
+	- Markdown Enhanted
+	- Markdown Preview
+#3. MarkdownPad - edytor/przeglądarka Markdownów - aktualnie zastąpiona przez pluginy do VSC.
 
 
 
@@ -66,3 +68,10 @@ map K previousTab
 2. hunt-and-peck - Vimium, ale dla wszystkich okien - jednak aktualnie trochę zbyt wolno to reaguje :( - może potem warto poszukać jakiejś alternatywy, albo całkiem przejść na Arch
 	- https://github.com/zsims/hunt-and-peck
 3. KeyRocket - do nauki skrotow na windowsie, ale apka komercyjna - 100 dolarow :/
+4. scoop - manager pakietów dla windowsa - jak chocolate - https://medium.com/@pranjalpaliwal/perfect-dev-environment-on-windows-the-easiest-way-691c649850eb
+
+
+### Lista aplikacji linuxowych - do rozbudowania i potem oskryptowania i "odotfilowania" ###
+
+1. ranger - mały, fajny manager plików
+2. zsh - wiadomo
