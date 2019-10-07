@@ -31,8 +31,9 @@
 2. Visual Studio Code
 	- obsługa pythona
 	- Eclipse Keymap - zeby się milej pracowało
-	- Markdown Enhanted
-	- Markdown Preview
+	- Markdown Preview Enhanced
+	- PlantUML
+	- PlantUML Previewer
 #3. MarkdownPad - edytor/przeglądarka Markdownów - aktualnie zastąpiona przez pluginy do VSC.
 
 
