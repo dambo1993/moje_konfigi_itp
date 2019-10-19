@@ -35,6 +35,7 @@
 	- Markdownlint
 	- PlantUML
 	- PlantUML Previewer
+	- Graphviz Preview
 3. MarkdownPad - edytor/przeglądarka Markdownów - aktualnie zastąpiona przez pluginy do VSC.
 
 
