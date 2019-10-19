@@ -1,4 +1,4 @@
-### Narzędzia "ulatwiajace" prace" ###
+### Narzędzia "ulatwiajace" prace"
 1. Executor - mega launcher + małe apki w sobie typu timer
 	- http://executor.dk/
 2. 7+ Taskbar Numberer - numerki na pasku zadan - ale w win 10 już są wbudowane + w sumie już zawsze mam tak samo poukładane
@@ -18,31 +18,31 @@
 12. yEd - do rysowania diagramów
 13. ViFM - nie radio, a FileManager ze składnią Vima :)
 
-### Typowo narzedziowe ###
+### Typowo narzedziowe
 1. Moba Xterm - klient SSH, Serial portu itp
 2. ImDisk - do ustawienia RamDisków na windowsie
 	- ImDisk Virtual Disk driver
 	- RamDisk Configuration - pod ta nazwa tego szukac w executorze
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
 
-### IDE/Edytory tekstu ###
+### IDE/Edytory tekstu
 
 1. Eclipse - wiadomo + konfigi do niego z tego repo z katalogu eclipse.
 2. Visual Studio Code
 	- obsługa pythona
 	- Eclipse Keymap - zeby się milej pracowało
 	- Markdown Preview Enhanced
+	- Markdownlint
 	- PlantUML
 	- PlantUML Previewer
-#3. MarkdownPad - edytor/przeglądarka Markdownów - aktualnie zastąpiona przez pluginy do VSC.
+3. MarkdownPad - edytor/przeglądarka Markdownów - aktualnie zastąpiona przez pluginy do VSC.
 
 
-
-### Apki dodane do patha ###
+### Apki dodane do patha
 
 1. Hexplorer -> hexplo <nazwa pliku do uruchomienia>
 
-### Przegladarki ###
+### Przegladarki
 Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
 
 Do dogrania do przeglądarek:
@@ -62,17 +62,17 @@ map K previousTab
 5. Youtube Collection Manager - ładne zarządzanie subskrypcjami
 
 
-### Aplikacje do sprawdzenia kiedyś ###
+### Aplikacje do sprawdzenia kiedyś
 
 1. MaxLauncher - jako uzupełnienie executora i AHK - a bardziej jako zamiennik dmenu z linuxa, bo nic mądrzejszego nie znalazłem z menu, a nie komendami
 	- https://maxlauncher.sourceforge.io/	
 2. hunt-and-peck - Vimium, ale dla wszystkich okien - jednak aktualnie trochę zbyt wolno to reaguje :( - może potem warto poszukać jakiejś alternatywy, albo całkiem przejść na Arch
 	- https://github.com/zsims/hunt-and-peck
-3. KeyRocket - do nauki skrotow na windowsie, ale apka komercyjna - 100 dolarow :/
+3. KeyRocket - do nauki skrotow na windowsie, ale apka komercyjna - 100 dolarow :(
 4. scoop - manager pakietów dla windowsa - jak chocolate - https://medium.com/@pranjalpaliwal/perfect-dev-environment-on-windows-the-easiest-way-691c649850eb
 
 
-### Lista aplikacji linuxowych - do rozbudowania i potem oskryptowania i "odotfilowania" ###
+### Lista aplikacji linuxowych - do rozbudowania i potem oskryptowania i "odotfilowania"
 
 1. ranger - mały, fajny manager plików
 2. zsh - wiadomo
