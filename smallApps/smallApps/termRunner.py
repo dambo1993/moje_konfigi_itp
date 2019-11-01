@@ -7,41 +7,31 @@ import sys
 import argparse
 import COMutils
 
-parser = argparse.ArgumentParser(description='Poor "GUI" to select ports to some terminals apps')
-parser.add_argument('-dmb', help='dambusiowa konsolka', action='store_true')
-parser.add_argument('-putty', help='putty', action='store_true')
-parser.add_argument('-teraterm', help='teraterm', action='store_true')
-parser.add_argument('-n', nargs=1, help='Name of the terminal for "dambusiowa konsolka"')
-args = parser.parse_args()
-
-selectedTerminal = None
-
-if args.dmb == True:
-	selectedTerminal = "dmb"
-elif args.putty == True:
-	selectedTerminal = "putty"
-elif args.teraterm == True:
-	selectedTerminal = "teraterm"
-else:
-	print("You need to select terminal!")
-	sys.exit(1)
-
-speeds = [ 9600, 14400, 19200, 28800, 57600, 76800, 115200, 230400 ]
-
-def printSpeeds():
+speeds = [ 9600, 14400, 19200, 28800, 57600, 76800, 115200, 230400, 460800 ]
+terminalsNames = [ "dmb", "putty", "teraterm" ]
+# display table with speeds to select by user
+def printCOMSpeeds():
 	number = 1
 	table = BeautifulTable()
-	print("Select baudrate, default is 115200 (q for quit)")
+	print("Select baudrate, default (only enter) is 115200 or press q for quit")
 	table.column_headers = ["N", "SPEED"]
 	for speed in speeds:
 		table.append_row([number, speed])
 		number += 1
 	print(table)
+
+parser = argparse.ArgumentParser(description='Command line tool to run some COM terminals')
+parser.add_argument('-t', nargs=1, help='terminal name', choices=terminalsNames, required=True)
+parser.add_argument('-n', nargs=1, help='Name of the terminal for "dambusiowa konsolka"')
+parser.add_argument('-hist', help='History mode - last 10 settings', action="store_true")
+args = parser.parse_args()
+
+selectedTerminal = args.t[0]
 	
 sortedPorts = sorted(serial.tools.list_ports.comports())
 if len(sortedPorts) == 0:
 	print("COM PORTS NOT FOUND!!!")
-	sys.exit(0)
+	sys.exit(1)
 
 COMutils.printPortsInfo(sortedPorts)
 
@@ -55,7 +45,7 @@ if c == b'\r':
 		selectedPort = 1
 	else:
 		print("You can only press enter for single port in array")
-		sys.exit(0)
+		sys.exit(1)
 else:
 	selectedPort = int(c)
 	
@@ -63,33 +53,38 @@ if selectedPort >= 1 and selectedPort <= len(sortedPorts):
 	print(f"Selected COM: {sortedPorts[selectedPort-1][0]}")
 else:
 	print("Wrong COM number")
-	sys.exit(0)
+	sys.exit(1)
 
-printSpeeds()
-
+printCOMSpeeds()
 selectedSpeed = 0
-exitFlag = False
 
 c = readchar.readchar()
 if c == b'\r':
-	print("Baudrate is: 115200")
 	selectedSpeed = speeds.index(115200)
 elif c >= b'1' and c < b'8':
-	selectedSpeed = int(c) - 1
-	print(f"Selected baudrate is: {speeds[selectedSpeed]}")
+	selectedSpeed = int(c) - 1 # number to array position	
 else:
-	exitFlag = True
+	print("Wrong baudrate!!!")
+	sys.exit(1)
+	
+print(f"Selected baudrate: {speeds[selectedSpeed]}")
+
+# because we need array position 0-n
+selectedPort = selectedPort-1
 
 if selectedTerminal == "dmb":
 	if args.n != None:
 		print(f"Name: {args.n[0]}")
-		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}","-n",f"{args.n[0]}"])
+		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort][0]}","-b", f"{speeds[selectedSpeed]}","-n",f"{args.n[0]}"])
 	else:
-		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort-1][0]}","-b", f"{speeds[selectedSpeed]}"])
+		subprocess.Popen(["c:/smallApps/dambusiowa_konsola.exe","-p" ,f"{sortedPorts[selectedPort][0]}","-b", f"{speeds[selectedSpeed]}"])
 elif selectedTerminal == "putty":
-	subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort-1][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
+	subprocess.Popen(["putty","-serial" ,f"{sortedPorts[selectedPort][0]}","-sercfg", f"{speeds[selectedSpeed]}"])
 elif selectedTerminal == "teraterm":
-	comNumber = sortedPorts[selectedPort-1][0][3:]
-	print(comNumber)
-	subprocess.Popen(["ttermpro",f"/C={comNumber}", f"/BAUD={speeds[selectedSpeed]}"])	
+	comNumber = sortedPorts[selectedPort][0][3:]
+	print(f"Used com number: {comNumber}")
+	subprocess.Popen(["ttermpro",f"/C={comNumber}", f"/BAUD={speeds[selectedSpeed]}"])
+else:
+	print("Error")
+	sys.exit(1)
 	
