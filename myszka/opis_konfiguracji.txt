@@ -31,3 +31,15 @@ DPI - 5650
 		10 - MUTE
 		11 - PLAY/PAUSE
 		12 - NEXT TRACK
+		
+Konfiguracja dla pracy z Eagle - backup starych notatek, ale do przerzucenia sie na komendy:
+Side:
+1 - Group
+2 - Move
+3 - Copy/Rip-up
+4 - Name
+5 - Net/Route
+6 - Label/Rats
+7 - 
+8 - 
+9 - Show
