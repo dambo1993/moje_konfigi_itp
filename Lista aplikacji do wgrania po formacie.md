@@ -24,6 +24,7 @@
 	- ImDisk Virtual Disk driver
 	- RamDisk Configuration - pod ta nazwa tego szukac w executorze
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
+4. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
 
 ### IDE/Edytory tekstu
 
@@ -71,7 +72,7 @@ map K previousTab
 	- https://github.com/zsims/hunt-and-peck
 3. KeyRocket - do nauki skrotow na windowsie, ale apka komercyjna - 100 dolarow :(
 4. scoop - manager pakietów dla windowsa - jak chocolate - https://medium.com/@pranjalpaliwal/perfect-dev-environment-on-windows-the-easiest-way-691c649850eb
-
+5. Ogólnie obczaić softy od HDD software, bo wszystkie czasem by się przydały + dają darmowe wersje, które też są użyteczne bez kupowania
 
 ### Lista aplikacji linuxowych - do rozbudowania i potem oskryptowania i "odotfilowania"
 
