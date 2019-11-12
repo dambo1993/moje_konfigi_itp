@@ -26,6 +26,9 @@
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
 4. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
 
+### Nagrywanie itp
+1. Carnac - wyświetlanie wciśniętych klawiszy na ekranie
+
 ### IDE/Edytory tekstu
 
 1. Eclipse - wiadomo + konfigi do niego z tego repo z katalogu eclipse.
@@ -43,6 +46,10 @@
 ### Apki dodane do patha
 
 1. Hexplorer -> hexplo <nazwa pliku do uruchomienia>
+
+### Ogólne
+
+1. Flux - żeby trochę oczy oszczędzić monitorami
 
 ### Przegladarki
 Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
