@@ -3,7 +3,7 @@
 ; do dodania w przyszlosci:
 ; https://www.durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 
-#IfWinActive ahk_class mintty
+#If WinActive("ahk_class mintty") || WinActive("ahk_exe ubuntu.exe")
 ::gs::git status
 ::gl::git ll
 ::gd::git diff
