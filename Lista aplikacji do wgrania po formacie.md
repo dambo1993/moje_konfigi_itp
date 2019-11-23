@@ -1,7 +1,9 @@
 ### Narzędzia "ulatwiajace" prace"
 
-1. Executor - mega launcher + małe apki w sobie typu timer
+1. Executor - mega launcher
 	- http://executor.dk/
+	- apki "w nim"
+		- timer <czas> <napis>		
 2. 7+ Taskbar Numberer - numerki na pasku zadan - ale w win 10 już są wbudowane + w sumie już zawsze mam tak samo poukładane
 	- https://rammichael.com/7-taskbar-numberer
 3. Ditto - historia schowka systemowego
