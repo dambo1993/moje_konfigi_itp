@@ -1,4 +1,5 @@
 ### Narzędzia "ulatwiajace" prace"
+
 1. Executor - mega launcher + małe apki w sobie typu timer
 	- http://executor.dk/
 2. 7+ Taskbar Numberer - numerki na pasku zadan - ale w win 10 już są wbudowane + w sumie już zawsze mam tak samo poukładane
@@ -19,6 +20,7 @@
 13. ViFM - nie radio, a FileManager ze składnią Vima :)
 
 ### Typowo narzedziowe
+
 1. Moba Xterm - klient SSH, Serial portu itp
 2. ImDisk - do ustawienia RamDisków na windowsie
 	- ImDisk Virtual Disk driver
@@ -26,7 +28,13 @@
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
 4. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
 
+### Typowo narzedziowe - MQTT
+
+1. MQTT.fx - bardzo fajny klient, fajnie dziala z AWSem(device Shadow) i mozna definiowac swoje przyciski
+2. MQTT Explorer - kombajn do MQTT, ale bardziej do lokalnych/customowych serwerków/brokerów
+
 ### Nagrywanie itp
+
 1. Carnac - wyświetlanie wciśniętych klawiszy na ekranie
 
 ### IDE/Edytory tekstu
@@ -52,6 +60,7 @@
 1. Flux - żeby trochę oczy oszczędzić monitorami
 
 ### Przegladarki
+
 Tu zarówno używam FF jak i chrome - zależy czy w pracy/domu.
 
 Do dogrania do przeglądarek:
@@ -69,7 +78,6 @@ map K previousTab
 3. LeechBlock NG :)
 4. Video Speed Controller - i śmigać na 1.5
 5. Youtube Collection Manager - ładne zarządzanie subskrypcjami
-
 
 ### Aplikacje do sprawdzenia kiedyś
 
