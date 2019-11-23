@@ -12,12 +12,26 @@
 6. CMDer - zamiennik CMD na windowsie
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
 8. Hexplorer - do podglądu plików hex.
-9. BeyondCompare - zaawansowana porownywarka plikow, kodow(np pomijanie komentarzy, minorow, kolorowanie), katalogow itp!
-	- Winmerge - porównywanie plików <nazwa to winmergeU> -> tego uzywalem wczesniej
-10. Meld - porównywanie katalogów i też plików
-11. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
-12. yEd - do rysowania diagramów
-13. ViFM - nie radio, a FileManager ze składnią Vima :)
+9. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
+10. yEd - do rysowania diagramów
+11. ViFM - nie radio, a FileManager ze składnią Vima :)
+
+### Porównywarki plików
+
+1. BeyondCompare - mega kombajn, można pomijać "minory", uwzględnia składnie języka itp! stosowany do "integracji"
+	- porównuje też binarki i pliki hex
+	- porównuje też całe katalogi itp
+	- słabo radzi sobie z obrazami
+2. Winmerge - opensourcowa mega apka, zastępiona w sumie przez BC
+	- daje radę do obrazków
+		- jako Overlay wybieramy Alpha i możemy "ściemniać" różnice
+		- ciekawa
+3. https://www.diffchecker.com/ online + wersja desktop też jest
+	- mega porównuje obrazy!!!
+	- nadaje się do porównywania obrazków z EAGLE
+	- działa płynniej dla obrazów niż Winmerge
+4. Meld 
+	- spoko, ale to zastąpił BeyondCompare
 
 ### Typowo narzedziowe
 
@@ -26,7 +40,8 @@
 	- ImDisk Virtual Disk driver
 	- RamDisk Configuration - pod ta nazwa tego szukac w executorze
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
-4. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
+4. Device monitoring studio - apka do wszystkich rzeczy z hardware na embedded!
+5. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
 
 ### Typowo narzedziowe - MQTT
 
@@ -87,7 +102,7 @@ map K previousTab
 	- https://github.com/zsims/hunt-and-peck
 3. KeyRocket - do nauki skrotow na windowsie, ale apka komercyjna - 100 dolarow :(
 4. scoop - manager pakietów dla windowsa - jak chocolate - https://medium.com/@pranjalpaliwal/perfect-dev-environment-on-windows-the-easiest-way-691c649850eb
-5. Ogólnie obczaić softy od HDD software, bo wszystkie czasem by się przydały + dają darmowe wersje, które też są użyteczne bez kupowania
+5. Ogólnie obczaić softy od HDD software, bo wszystkie czasem by się przydały + dają darmowe wersje, które też są użyteczne bez kupowania - mają jakieś hexviewery itp
 
 ### Lista aplikacji linuxowych - do rozbudowania i potem oskryptowania i "odotfilowania"
 
