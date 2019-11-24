@@ -16,7 +16,6 @@
 8. Hexplorer - do podglądu plików hex.
 9. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
 10. yEd - do rysowania diagramów
-11. ViFM - nie radio, a FileManager ze składnią Vima :)
 
 ### Porównywarki plików
 
@@ -34,6 +33,12 @@
 	- działa płynniej dla obrazów niż Winmerge
 4. Meld 
 	- spoko, ale to zastąpił BeyondCompare
+
+### Menagery plików
+
+1. total commander oczywiście (ale głównie do FTPów)
+2. ranger+CygWin - dziwne połączenie, ale dobrze działa + konfigi do tego wszystkiego z repa dotfiles
+3. ViFM - kiedyś, ale teraz całkowicie zastąpiony rangerem!
 
 ### Typowo narzedziowe
 
