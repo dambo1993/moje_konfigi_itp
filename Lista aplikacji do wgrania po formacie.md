@@ -37,8 +37,11 @@
 ### Menagery plików
 
 1. total commander oczywiście (ale głównie do FTPów)
-2. ranger+CygWin - dziwne połączenie, ale dobrze działa + konfigi do tego wszystkiego z repa dotfiles
-3. ViFM - kiedyś, ale teraz całkowicie zastąpiony rangerem!
+2. lf (wymaga też zainstalowania go)
+   - https://github.com/gokcehan/lf 
+   - komenda: go get -u github.com/gokcehan/lf
+3. ranger+CygWin - dziwne połączenie, ale dobrze działa + konfigi do tego wszystkiego z repa dotfiles
+4. ViFM - kiedyś, ale teraz całkowicie zastąpiony rangerem!
 
 ### Typowo narzedziowe
 
