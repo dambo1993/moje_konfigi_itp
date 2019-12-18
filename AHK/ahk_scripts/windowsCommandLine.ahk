@@ -12,6 +12,9 @@
 ; uruchomienie zwyklego notepada
 ::ntp::notepad
 
+; uruchomienie SA - onwertowanie timestampa
+::satime::python c:\smallApps\timestamp.py -t 
+
 ; uruchomienie SA - porty COM
 ::sacom::python c:\smallApps\COMPorts.py
 
