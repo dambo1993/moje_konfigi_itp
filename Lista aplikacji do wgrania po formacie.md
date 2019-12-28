@@ -52,6 +52,7 @@
 3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
 4. Device monitoring studio - apka do wszystkich rzeczy z hardware na embedded!
 5. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
+6. TreeSize - przydatne do porządków na kompie - do zwalniania miejsca na dyskach
 
 ### Typowo narzedziowe - MQTT
 
