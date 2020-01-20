@@ -36,7 +36,7 @@
 
 ### Menagery plików
 
-1. total commander oczywiście (ale głównie do FTPów)
+1. Total commander oczywiście (ale głównie do FTPów)
 2. lf (wymaga też zainstalowania go)
    - https://github.com/gokcehan/lf 
    - komenda: go get -u github.com/gokcehan/lf
@@ -45,13 +45,23 @@
 
 ### Typowo narzedziowe
 
-1. Moba Xterm - klient SSH, Serial portu itp
-2. ImDisk - do ustawienia RamDisków na windowsie
+1. ImDisk - do ustawienia RamDisków na windowsie
 	- ImDisk Virtual Disk driver
 	- RamDisk Configuration - pod ta nazwa tego szukac w executorze
-3. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
-4. Device monitoring studio - apka do wszystkich rzeczy z hardware na embedded!
-5. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
+2. Advanced IP scanner - do wyszukiwania urządzeń w sieci.
+3. Device monitoring studio - apka do wszystkich rzeczy z hardware na embedded!
+4. Free Virtual Serial Ports od HDDSoftware - virtualne porty COM, łączenie ich itp(na linuxie z tym nie ma problemu)
+5. TreeSize - przydatne do porządków na kompie - do zwalniania miejsca na dyskach
+
+### Typowo narzedziowe - terminale itp
+
+1. Moba Xterm - klient SSH, Serial portu itp - można np otworzyć kilka okien i do wszystkich przesyłac w tym samym czasie komendy
+2. Putty - wiadomo
+3. TeraTerm - wiadomo
+4. Moja konsolka - też się przydaje czasem
+5. YAT - kilka opcji jak w mojej konsolce
+
++ do tego mój tool pythonowy do uruchamiania tego wszystkiego jako nakładka graficzna do wybierania portów itp.
 
 ### Typowo narzedziowe - MQTT
 
