@@ -60,6 +60,7 @@
 3. TeraTerm - wiadomo
 4. Moja konsolka - też się przydaje czasem
 5. YAT - kilka opcji jak w mojej konsolce
+6. Serial Port Monitor - namiastka apki z "device monitoring studio"
 
 + do tego mój tool pythonowy do uruchamiania tego wszystkiego jako nakładka graficzna do wybierania portów itp.
 
