@@ -16,3 +16,6 @@ Return
 	FormatTime, CurrentDateTime,, HH:mm:ss dd.MM.yyyy
 	SendInput %CurrentDateTime%
 Return
+
+::@@sg::Sounds great.
+::@@sgty::Sounds great. Thank you.
