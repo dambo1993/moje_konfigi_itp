@@ -125,6 +125,7 @@ map K previousTab
 4. scoop - manager pakietów dla windowsa - jak chocolate - https://medium.com/@pranjalpaliwal/perfect-dev-environment-on-windows-the-easiest-way-691c649850eb
 5. Ogólnie obczaić softy od HDD software, bo wszystkie czasem by się przydały + dają darmowe wersje, które też są użyteczne bez kupowania - mają jakieś hexviewery itp
 6. 010 Editor - ciekawie zapowiadający się edytor plików hex itp
+7. Extraterm - ciekawie zapowiadajacy sie terminalik
 
 ### Lista aplikacji linuxowych - do rozbudowania i potem oskryptowania i "odotfilowania"
 
