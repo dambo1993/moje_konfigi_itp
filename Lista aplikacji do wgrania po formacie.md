@@ -3,19 +3,20 @@
 1. Executor - mega launcher
 	- http://executor.dk/
 	- apki "w nim"
-		- timer <czas> <napis>		
+		- timer <czas> <napis>
+	- w Win7 ustawiać na "Win+Z" w win10 - "Win+Shift+Z"	
 2. 7+ Taskbar Numberer - numerki na pasku zadan - ale w win 10 już są wbudowane + w sumie już zawsze mam tak samo poukładane
 	- https://rammichael.com/7-taskbar-numberer
 3. Ditto - historia schowka systemowego
 	- https://ditto-cp.sourceforge.io/
+	- skrót jako Ctrl+I
 4. AutoHotKey - mega skrypty/makra
 	- https://www.autohotkey.com/
 5. Desktop OK - zapisanie pozycji ikon gdy zmienia sie uklad monitorow
 6. CMDer - zamiennik CMD na windowsie
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
-8. Hexplorer - do podglądu plików hex.
-9. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
-10. yEd - do rysowania diagramów
+8. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
+9. yEd - do rysowania diagramów - ale pomalu wyparty przez plantUMLe itp
 
 ### Porównywarki plików
 
@@ -23,6 +24,7 @@
 	- porównuje też binarki i pliki hex
 	- porównuje też całe katalogi itp
 	- słabo radzi sobie z obrazami
+	- dodano niedawno nowe możliwości odnośnie porównywania obrazów - sprawdzić!
 2. Winmerge - opensourcowa mega apka, zastępiona w sumie przez BC
 	- daje radę do obrazków
 		- jako Overlay wybieramy Alpha i możemy "ściemniać" różnice
