@@ -1,7 +1,7 @@
 #SingleInstance force
 
 ; komendy aktywne tylko w CMD i CMDerze
-#If WinActive("ahk_exe ConEmu64.exe") || WinActive("ahk_exe cmd.exe") || WinActive("ahk_exe ubuntu.exe") 
+#If WinActive("ahk_exe ConEmu64.exe") || WinActive("ahk_exe cmd.exe")
 
 ; uruchomienie explorera w danym katalogu
 ::ex.::explorer .
@@ -45,6 +45,7 @@
 ; uruchomienie SA - MQTT2COM z adresem na moje RPi
 ; w wersji "standardowej"
 ::sam2crpis::python c:\smallApps\MQTT2COM.py -broker "192.168.0.11" -i input -o output -p 
+
 ; w wersji z innymi in/out:
 ::sam2crpi::python c:\smallApps\MQTT2COM.py -broker "192.168.0.11" 
 
