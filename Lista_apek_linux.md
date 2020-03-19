@@ -10,6 +10,7 @@ Lista apek - ważne:
 		- exa
 		- hexyl
 	- xxd
+	- iPython! (do instalacji przez - pip3 install ipython)
 	
 
 Bajerowe:
