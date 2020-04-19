@@ -17,6 +17,10 @@
 7. Easy Window Switcher - do przechodzenia pomiedzy oknami tego samego typu (jak np explorer) za pomocą Alt+`
 8. wget dla windowsa - http://gnuwin32.sourceforge.net/packages/wget.htm
 9. yEd - do rysowania diagramów - ale pomalu wyparty przez plantUMLe itp
+10. GreenShot - do robienia screenow:
+    - PS -> domyslnie teraz odpowiada za przechwycenie obszaru, a nie wszystkiego
+	- Ctrl + PS -> screen wszystkiego
+	- Shift + PS -> zrobienie screena z tego obszaru co poporzednio - potem wybieramy co z nim zrobic
 
 ### Porównywarki plików
 

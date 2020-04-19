@@ -5,7 +5,7 @@ INSTRUKCJA KONFIGURACJI ECLIPSE - czyli jak od zera skonfigurować wszystko na n
 	- DarkestDark
 	- Vrapper!!! + skrót do niego w postaci Alt+V
 	- EasyShell  - domyślnie służy do otwierania rzeczy w explorerze, ale od tego mama skróty - dla mnie fajną rzeczą jest możliwość skopiowania ścieżki do pliku z poziomu klawiatury Alt+Shift+E i wybrać opcję. TODO - poczaić więcej jego możliwości!
-	- Markdown Text Editor
+	- FluentMark (wcześniej tu był Markdown Text Editor)
 	- Yaml Editor
 3*. Ustawienia klawiszy:
 	- File->Import->General->Preferences
