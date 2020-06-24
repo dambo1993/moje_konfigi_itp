@@ -6,4 +6,7 @@
 
 - AMAP - podgąd plików MAP z GCC - http://www.sikorskiy.net/prj/amap/index.html
 
-- wavedrom-editor -> programik do wuzualizacji przebiegów cyfrowy - wynik jak z symulacji z modelsima, oczywiście przebieg zapisujemy w sposób tekstowy, a potem exportujemy jako obrazek
+- modbus Poll/slave - https://www.modbustools.com/download.html - do testowania urządzeń/biliotek modbusowych
+- Serial Port Monitor by Eltima - rozbudowany tool do uartu na PC
+
+- wavedrom-editor -> programik do wuzualizacji przebiegów cyfrowy - wynik jak z symulacji z modelsima, oczywiście przebieg zapisujemy w sposób tekstowy, a potem exportujemy jako obrazek, aktualnie takie coś można też robić w plantUMLu, więc chyba nie będę już go używał
