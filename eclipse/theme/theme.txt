@@ -13,3 +13,4 @@
 		- c/c++->Build->Console  -> zmieniam tutaj "Background color for warnings na "brązowy" (K2;R5 w palecie barw)
 
 2. Powyższe zmiany są uwzględnione w pliku "custom_syntax_coloring.epf" dołączonym w tym katalogu - wystarczy go zaimportować.
+	- to importowanie robimy przez główny import IDE - jako "preferences" -> zobaczymy tam "C/C++ Editor Apperance"
