@@ -32,5 +32,7 @@
 
 ::gps::git push
 
+::gdc::git diff --cached
+
 ; uruchamianie okna explorera - czasem mi brakowalo tego tez tutaj
 ::ex.::explorer .
