@@ -13,8 +13,9 @@ Czyli jak od zera skonfigurować wszystko na nowej platformie/na nowej instalacj
 	- File->Import->General->Preferences
 	- z katalogu "key_bindings"
 4*. Ustawienie motywu - opis wraz z plikami w katalogu theme
-5*. Ustawienie szablonów funkcji itp - z pliku "moj_szablon_szablony_funkcji.xml"
-6*. Ustawienie formattera kodu - z pliku "moj_szablon_kod_formatowanie"
+5*. Ustawienie szablonów funkcji itp - z pliku "moj_szablon_szablony_funkcji.xml", przez menu "c/c++ templates -> Import"
+6*. Ustawienie formattera kodu z sekcji "c/cpp Formatter" - z pliku "moj_szablon_kod_formatowanie"
+7*. Customowe tagi dla tasków/review itp - zależnie od firmy/projektu
 
 Konfiguracja takiego nowego workspace to ok 10 minut niestety.
 
