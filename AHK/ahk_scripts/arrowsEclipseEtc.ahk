@@ -1,7 +1,7 @@
 #SingleInstance force
 
 ; only in CubeIDE - highlight current "phrase"
-IfWinActive ahk_exe stm32cubeide.exe
+#If WinActive("ahk_exe stm32cubeide.exe")
 {
 	CapsLock & i::
 		Send, {Alt Down}{Shift Down}
