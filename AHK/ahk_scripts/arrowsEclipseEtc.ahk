@@ -32,4 +32,20 @@
 		Send, {Up}
 		Send, {Alt Up}
 		Return
+
+	CapsLock & 7::
+		Send, {Shift Down}{Ctrl Down}
+		Send, {Down}
+		Send, {Shift Up}{Ctrl Up}
+		Return
+
+	CapsLock & 8::
+		Send, {Shift Down}{Ctrl Down}
+		Send, {Up}
+		Send, {Shift Up}{Ctrl Up}
+		Return
+
+	CapsLock & a::
+		Send, {End}
+		Return
 }
