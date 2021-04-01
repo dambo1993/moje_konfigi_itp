@@ -17,7 +17,7 @@ Czyli jak od zera skonfigurować wszystko na nowej platformie/na nowej instalacj
 6*. Ustawienie formattera kodu z sekcji "c/cpp Formatter" - z pliku "moj_szablon_kod_formatowanie"
 7*. Customowe tagi dla tasków/review itp - zależnie od firmy/projektu
 
-Konfiguracja takiego nowego workspace to ok 10 minut niestety.
+Konfiguracja takiego nowego workspace to jakieś ~10 minut niestety, na szczęście nie robi się tego często.
 
 Jednorazowo:
 
