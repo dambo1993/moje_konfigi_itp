@@ -3,19 +3,19 @@ INSTRUKCJA KONFIGURACJI ECLIPSE
 Czyli jak od zera skonfigurować wszystko na nowej platformie/na nowej instalacji eclipse po mojemu.
 
 1. Oczywiście - pobranie eclipse/Atollica/SimplicityStudio itp.
-2*. Pobranie dodatków z EclipseMarketplace (dodatki będą stopniowo dopisywane tutaj):
+2. Pobranie dodatków z EclipseMarketplace (dodatki będą stopniowo dopisywane tutaj):
 	- DarkestDark
 	- Vrapper!!! + skrót do niego w postaci Alt+V, podczas instalacji zaznaczyć wszystkie komponenty oprócz pythonowych (chyba, że to eclipse też do pythona)
 	- EasyShell  - domyślnie służy do otwierania rzeczy w explorerze, ale od tego mam też skróty - dla mnie fajną rzeczą jest możliwość skopiowania ścieżki do pliku z poziomu klawiatury Alt+Shift+E i wybrać opcję. TODO - poczaić więcej jego możliwości!
 	- FluentMark (wcześniej tu był Markdown Text Editor) - opcjonalne/dla repo bloga.
 	- Yaml Editor - też opcjonalne
-3*. Ustawienia klawiszy:
-	- File->Import->General->Preferences
-	- z katalogu "key_bindings"
-4*. Ustawienie motywu - opis wraz z plikami w katalogu theme
-5*. Ustawienie szablonów funkcji itp - z pliku "moj_szablon_szablony_funkcji.xml", przez menu "c/c++ templates -> Import"
-6*. Ustawienie formattera kodu z sekcji "c/cpp Formatter" - z pliku "moj_szablon_kod_formatowanie"
-7*. Customowe tagi dla tasków/review itp - zależnie od firmy/projektu
+3. Ustawienia klawiszy:
+	- poprzez File->Import->General->Preferences
+	- konfiguracja z katalogu "key_bindings"
+4. Ustawienie motywu - opis wraz z plikami w katalogu theme
+5. Ustawienie szablonów funkcji itp - z pliku "moj_szablon_szablony_funkcji.xml", przez menu "c/c++ templates -> Import"
+6. Ustawienie formattera kodu z sekcji "c/cpp Formatter" - z pliku "moj_szablon_kod_formatowanie"
+7. Customowe tagi dla tasków/review itp - zależnie od firmy/projektu
 
 Konfiguracja takiego nowego workspace to jakieś ~10 minut niestety, na szczęście nie robi się tego często.
 
