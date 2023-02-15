@@ -32,6 +32,8 @@
 
 ::gps::git push
 
+::gpsn::git push -u origin $(git branch --show-current)
+
 ::gdc::git diff --cached
 
 ; uruchamianie okna explorera - czasem mi brakowalo tego tez tutaj
